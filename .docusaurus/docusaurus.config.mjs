@@ -7,10 +7,11 @@ export default {
   "title": "AthenaJS",
   "tagline": "Building Components Has Never Been This Easy",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
-  "organizationName": "OSLABS",
-  "projectName": "Athena",
+  "url": "https://oslabs-beta.github.io",
+  "baseUrl": "/athena-website/",
+  "organizationName": "oslabs-beta",
+  "projectName": "athena-website",
+  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -26,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "E:\\coding-stuff\\codesmith-OSP\\Athena-website\\athena-website\\sidebars.js",
+          "sidebarPath": "/Users/ryanmotamen/Desktop/athena-website/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +35,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "E:\\coding-stuff\\codesmith-OSP\\Athena-website\\athena-website\\src\\css\\custom.css"
+          "customCss": "/Users/ryanmotamen/Desktop/athena-website/src/css/custom.css"
         }
       }
     ]
