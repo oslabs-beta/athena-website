@@ -1,0 +1,27 @@
+{
+  "unversionedId": "editing-your-component/mocking-state",
+  "id": "editing-your-component/mocking-state",
+  "title": "Mocking State",
+  "description": "AthenaJS offers a functional component syntax that allows users to simulate state, enabling developers to test their components' behavior in various scenarios. If you're looking to write and implement mock state using AthenaJS, here's a step-by-step guide:",
+  "source": "@site/docs/editing-your-component/mocking-state.md",
+  "sourceDirName": "editing-your-component",
+  "slug": "/editing-your-component/mocking-state",
+  "permalink": "/docs/editing-your-component/mocking-state",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/mocking-state.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mocking Props",
+    "permalink": "/docs/editing-your-component/mocking-props"
+  },
+  "next": {
+    "title": "Mocking Functions",
+    "permalink": "/docs/editing-your-component/defining-actions"
+  }
+}
