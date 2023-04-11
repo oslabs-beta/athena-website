@@ -6,7 +6,7 @@
   "source": "@site/docs/editing-your-component/mocking-state.md",
   "sourceDirName": "editing-your-component",
   "slug": "/editing-your-component/mocking-state",
-  "permalink": "/docs/editing-your-component/mocking-state",
+  "permalink": "/athena-website/docs/editing-your-component/mocking-state",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/mocking-state.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Mocking Props",
-    "permalink": "/docs/editing-your-component/mocking-props"
+    "permalink": "/athena-website/docs/editing-your-component/mocking-props"
   },
   "next": {
     "title": "Mocking Functions",
-    "permalink": "/docs/editing-your-component/defining-actions"
+    "permalink": "/athena-website/docs/editing-your-component/defining-actions"
   }
 }

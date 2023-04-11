@@ -3,199 +3,158 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'b81'),
+    path: '/athena-website/blog',
+    component: ComponentCreator('/athena-website/blog', 'e84'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'a6e'),
+    path: '/athena-website/blog/archive',
+    component: ComponentCreator('/athena-website/blog/archive', 'c1a'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '009'),
+    path: '/athena-website/blog/first-blog-post',
+    component: ComponentCreator('/athena-website/blog/first-blog-post', '4c3'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'f1a'),
+    path: '/athena-website/blog/long-blog-post',
+    component: ComponentCreator('/athena-website/blog/long-blog-post', '9d5'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '100'),
+    path: '/athena-website/blog/mdx-blog-post',
+    component: ComponentCreator('/athena-website/blog/mdx-blog-post', 'ab5'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '10b'),
+    path: '/athena-website/blog/tags',
+    component: ComponentCreator('/athena-website/blog/tags', '4b9'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '833'),
+    path: '/athena-website/blog/tags/docusaurus',
+    component: ComponentCreator('/athena-website/blog/tags/docusaurus', '536'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '41d'),
+    path: '/athena-website/blog/tags/facebook',
+    component: ComponentCreator('/athena-website/blog/tags/facebook', 'f18'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'b1c'),
+    path: '/athena-website/blog/tags/hello',
+    component: ComponentCreator('/athena-website/blog/tags/hello', '540'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', 'b63'),
+    path: '/athena-website/blog/tags/hola',
+    component: ComponentCreator('/athena-website/blog/tags/hola', '666'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', 'f52'),
+    path: '/athena-website/blog/welcome',
+    component: ComponentCreator('/athena-website/blog/welcome', '0bf'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '9d8'),
+    path: '/athena-website/markdown-page',
+    component: ComponentCreator('/athena-website/markdown-page', 'ced'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '73b'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'bff'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '1e0'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'cd3'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '360'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'a99'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'ccc'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', '997'),
+    path: '/athena-website/docs',
+    component: ComponentCreator('/athena-website/docs', 'fac'),
     routes: [
       {
-        path: '/docs/category/editing-your-component',
-        component: ComponentCreator('/docs/category/editing-your-component', '9d3'),
+        path: '/athena-website/docs/category/editing-your-component',
+        component: ComponentCreator('/athena-website/docs/category/editing-your-component', 'd7a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/tutorial---basics',
-        component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
+        path: '/athena-website/docs/category/tutorial---basics',
+        component: ComponentCreator('/athena-website/docs/category/tutorial---basics', 'fbc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/ui-mode',
-        component: ComponentCreator('/docs/category/ui-mode', 'a95'),
+        path: '/athena-website/docs/category/ui-mode',
+        component: ComponentCreator('/athena-website/docs/category/ui-mode', '50a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/editing-your-component/defining-actions',
-        component: ComponentCreator('/docs/editing-your-component/defining-actions', '72e'),
+        path: '/athena-website/docs/editing-your-component/defining-actions',
+        component: ComponentCreator('/athena-website/docs/editing-your-component/defining-actions', '7f7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/editing-your-component/mocking-props',
-        component: ComponentCreator('/docs/editing-your-component/mocking-props', '278'),
+        path: '/athena-website/docs/editing-your-component/mocking-props',
+        component: ComponentCreator('/athena-website/docs/editing-your-component/mocking-props', '8c2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/editing-your-component/mocking-state',
-        component: ComponentCreator('/docs/editing-your-component/mocking-state', '36b'),
+        path: '/athena-website/docs/editing-your-component/mocking-state',
+        component: ComponentCreator('/athena-website/docs/editing-your-component/mocking-state', 'ca4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/editing-your-component/rendering-component',
-        component: ComponentCreator('/docs/editing-your-component/rendering-component', 'f21'),
+        path: '/athena-website/docs/editing-your-component/rendering-component',
+        component: ComponentCreator('/athena-website/docs/editing-your-component/rendering-component', '6bb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/athena-website/docs/intro',
+        component: ComponentCreator('/athena-website/docs/intro', 'ffb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations', '793'),
+        path: '/athena-website/docs/tutorial-basics/create-a-blog-post',
+        component: ComponentCreator('/athena-website/docs/tutorial-basics/create-a-blog-post', '835'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '68e'),
+        path: '/athena-website/docs/tutorial-basics/create-a-document',
+        component: ComponentCreator('/athena-website/docs/tutorial-basics/create-a-document', 'a73'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
+        path: '/athena-website/docs/tutorial-basics/create-a-page',
+        component: ComponentCreator('/athena-website/docs/tutorial-basics/create-a-page', 'dc2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
+        path: '/athena-website/docs/tutorial-basics/deploy-your-site',
+        component: ComponentCreator('/athena-website/docs/tutorial-basics/deploy-your-site', '2e1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
+        path: '/athena-website/docs/tutorial-basics/markdown-features',
+        component: ComponentCreator('/athena-website/docs/tutorial-basics/markdown-features', '5fd'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/UI-mode/manage-docs-versions',
-        component: ComponentCreator('/docs/UI-mode/manage-docs-versions', '9ad'),
+        path: '/athena-website/docs/UI-mode/manage-docs-versions',
+        component: ComponentCreator('/athena-website/docs/UI-mode/manage-docs-versions', '1c3'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'fdf'),
+    path: '/athena-website/',
+    component: ComponentCreator('/athena-website/', '1dd'),
     exact: true
   },
   {
