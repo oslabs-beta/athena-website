@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Getting Started",
-        "href": "/docs/intro",
+        "href": "/athena-website/docs/intro",
         "docId": "intro"
       },
       {
@@ -24,29 +24,29 @@
           {
             "type": "link",
             "label": "Mocking Props",
-            "href": "/docs/editing-your-component/mocking-props",
+            "href": "/athena-website/docs/editing-your-component/mocking-props",
             "docId": "editing-your-component/mocking-props"
           },
           {
             "type": "link",
             "label": "Mocking State",
-            "href": "/docs/editing-your-component/mocking-state",
+            "href": "/athena-website/docs/editing-your-component/mocking-state",
             "docId": "editing-your-component/mocking-state"
           },
           {
             "type": "link",
             "label": "Mocking Functions",
-            "href": "/docs/editing-your-component/defining-actions",
+            "href": "/athena-website/docs/editing-your-component/defining-actions",
             "docId": "editing-your-component/defining-actions"
           },
           {
             "type": "link",
             "label": "Rendering Your Component",
-            "href": "/docs/editing-your-component/rendering-component",
+            "href": "/athena-website/docs/editing-your-component/rendering-component",
             "docId": "editing-your-component/rendering-component"
           }
         ],
-        "href": "/docs/category/editing-your-component"
+        "href": "/athena-website/docs/category/editing-your-component"
       },
       {
         "type": "category",
@@ -57,11 +57,11 @@
           {
             "type": "link",
             "label": "manage-docs-versions",
-            "href": "/docs/UI-mode/manage-docs-versions",
+            "href": "/athena-website/docs/UI-mode/manage-docs-versions",
             "docId": "UI-mode/manage-docs-versions"
           }
         ],
-        "href": "/docs/category/ui-mode"
+        "href": "/athena-website/docs/category/ui-mode"
       },
       {
         "type": "category",
@@ -72,41 +72,35 @@
           {
             "type": "link",
             "label": "Importing Your File",
-            "href": "/docs/tutorial-basics/create-a-page",
+            "href": "/athena-website/docs/tutorial-basics/create-a-page",
             "docId": "tutorial-basics/create-a-page"
           },
           {
             "type": "link",
             "label": "Editing Your Component",
-            "href": "/docs/tutorial-basics/create-a-document",
+            "href": "/athena-website/docs/tutorial-basics/create-a-document",
             "docId": "tutorial-basics/create-a-document"
           },
           {
             "type": "link",
             "label": "Mocking Props",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
+            "href": "/athena-website/docs/tutorial-basics/create-a-blog-post",
             "docId": "tutorial-basics/create-a-blog-post"
           },
           {
             "type": "link",
             "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
+            "href": "/athena-website/docs/tutorial-basics/markdown-features",
             "docId": "tutorial-basics/markdown-features"
           },
           {
             "type": "link",
             "label": "Mocking State",
-            "href": "/docs/tutorial-basics/deploy-your-site",
+            "href": "/athena-website/docs/tutorial-basics/deploy-your-site",
             "docId": "tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Defining Actions",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
           }
         ],
-        "href": "/docs/category/tutorial---basics"
+        "href": "/athena-website/docs/category/tutorial---basics"
       }
     ]
   },
@@ -139,12 +133,6 @@
       "id": "intro",
       "title": "Getting Started",
       "description": "Introduction to AthenaJS:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Defining Actions",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/create-a-blog-post": {
