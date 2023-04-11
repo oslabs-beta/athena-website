@@ -1,0 +1,27 @@
+{
+  "unversionedId": "editing-your-component/defining-actions",
+  "id": "editing-your-component/defining-actions",
+  "title": "Mocking Functions",
+  "description": "In AthenaJS, the function terminal window is a powerful tool that allows users to import and define functions from component files to test and render components. Here's a step-by-step guide on how to use the function terminal window:",
+  "source": "@site/docs/editing-your-component/defining-actions.md",
+  "sourceDirName": "editing-your-component",
+  "slug": "/editing-your-component/defining-actions",
+  "permalink": "/docs/editing-your-component/defining-actions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/defining-actions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mocking State",
+    "permalink": "/docs/editing-your-component/mocking-state"
+  },
+  "next": {
+    "title": "Rendering Your Component",
+    "permalink": "/docs/editing-your-component/rendering-component"
+  }
+}
