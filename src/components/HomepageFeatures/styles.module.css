@@ -50,10 +50,6 @@
   overflow: hidden;
   aspect-ratio: 16 / 9;
   width: 50%;
-  /* background-image: url(../../../static/gif/Upload_and_Edit.gif); */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* background-color:#D0DBFE; */
 }
 
 .videoPlayer {
