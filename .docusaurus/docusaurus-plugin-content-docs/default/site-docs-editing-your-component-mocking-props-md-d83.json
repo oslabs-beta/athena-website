@@ -1,0 +1,27 @@
+{
+  "unversionedId": "editing-your-component/mocking-props",
+  "id": "editing-your-component/mocking-props",
+  "title": "Mocking Props",
+  "description": "In AthenaJS, mocking props is an essential aspect of component development and testing. It enables developers to simulate the data that their components receive from parent components or external sources, ensuring that they function correctly in various scenarios. Here is a step-by-step guide on how to write and use dummy props in AthenaJS:",
+  "source": "@site/docs/editing-your-component/mocking-props.md",
+  "sourceDirName": "editing-your-component",
+  "slug": "/editing-your-component/mocking-props",
+  "permalink": "/docs/editing-your-component/mocking-props",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/mocking-props.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Editing Your Component",
+    "permalink": "/docs/category/editing-your-component"
+  },
+  "next": {
+    "title": "Mocking State",
+    "permalink": "/docs/editing-your-component/mocking-state"
+  }
+}
