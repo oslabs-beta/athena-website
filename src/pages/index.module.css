@@ -7,7 +7,13 @@
   padding: 4rem 0;
   text-align: center;
   position: relative;
+  height: calc(100vh - 3.9rem);
   overflow: hidden;
+  /* background-image: url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg);
+  /* background-image: url(../../images/athena.jpg); */
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 996px) {
