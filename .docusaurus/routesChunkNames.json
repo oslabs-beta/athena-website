@@ -53,6 +53,7 @@
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---athena-website-docs-4-c-4-d3e"
+      "plugin": "plugin---athena-website-docs-4-c-4-d3e"
     },
     "versionMetadata": "versionMetadata---athena-website-docs-935-384"
   },
@@ -105,6 +106,7 @@
     "__context": {
       "plugin": "plugin---athena-website-markdown-pagef-0-b-8d5"
     },
+    "config": "config---athena-website-5-e-9-063"
     "config": "config---athena-website-5-e-9-063"
   }
 }
