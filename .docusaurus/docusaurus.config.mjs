@@ -27,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/ryanmotamen/Desktop/athena-website/sidebars.js",
+          "sidebarPath": "/Users/dkc213/Desktop/CS Stuff/athena-website/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -35,7 +35,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/ryanmotamen/Desktop/athena-website/src/css/custom.css"
+          "customCss": "/Users/dkc213/Desktop/CS Stuff/athena-website/src/css/custom.css"
         }
       }
     ]

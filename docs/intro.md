@@ -2,56 +2,37 @@
 sidebar_position: 1
 ---
 
-# Getting Started
+# Introduction
 
 ## Introduction to AthenaJS:
 
-AthenaJS is an Electron-based application that streamlines the development process of React components. Its key feature is the ability to **develop individual components in isolation**, allowing for rapid prototyping, testing, and iteration. By providing a dedicated environment for component creation, AthenaJS enhances efficiency and promotes best practices in React development.
+AthenaJS is a standalone Electron application that streamlines the development process of React components. Its key feature is the ability to **develop individual components in isolation**, allowing for rapid prototyping, testing, and iteration. By providing a dedicated environment for component creation, AthenaJS enhances efficiency and promotes best practices in React development.
 
 ### Key Features of AthenaJS Include:
 
-- **Intuitive interface** for editing components, mocking props, and managing state. This includes a built-in linter for JavaScript, JSON, and JSX.
+- **Intuitive interface** for editing components or building components from scratch. This includes a built-in linter for JavaScript and JSX.
 
-- Support for **defining custom actions** to manage component behavior and interactions.
+- **Live component rendering**, making it easy to visualize and test components on the fly.
 
-- **Live component rendering and previewing**, making it easy to visualize and test components on the fly.
+- **Render time calculation & graphing**, allowing developers to identify bottlenecks in their application.
 
-- **Render time calculations**, allowing developers to analyze component performance and optimize if needed.
+- **Save & Export** functionality to save your progress and integrate updated components seamlessly into your React application.
 
-- **Export** functionality to integrate updated components seamlessly into your React application.
+- **Fetch-Mock Integration** to mock http requests for your components making API requests
 
-- Ability to **edit React server components in isolation**, allowing developers to optimize performance and reduce the need for client-side rendering, further enhancing the React development experience.
+- **Styled Components Integration** to quickly style your components
 
+- **User Interface Whiteboard**, allowing developers to compare components and prototype UIs with intuitive drag and drop area
 
 ## Prerequisities
 
 To get started with AthenaJS, it's important to ensure that your system meets the following requirements:
 
-
 - **Compatible operating system**: AthenaJS is available for Windows, macOS, and Linux.
-- **Basic knowledge of React**: Familiarity with React, its core concepts, and component development is highly recommended to use AthenaJS effectively.
-
+- **Basic knowledge of React**: Familiarity with React and its core concepts is highly recommended to use AthenaJS effectively.
 
 Once you have met these prerequisites, you can install AthenaJS and begin developing React components with enhanced performance insights and efficient workflows.
 
 ## Installing Athena JS
 
-Users will be able to download Athena JS either through our [homepage](http://localhost:3000/) or our [Github](https://github.com/oslabs-beta/Athena).
-
-**Github Instructions:**
-
-First, navigate to the Github repository URL and fork the repository.
-
-Next, clone the repository to your local machine.
-
-```bash
-git clone https://github.com/YOUR_USERNAME_HERE/Athena.git
-```
-
-Navigate into the newly created Athena Folder, install all necessary dependencies, and spin up the app
-
-```bash
-cd Athena
-npm install
-npm run dev
-```
+Download AthenaJS through the [homepage](http://localhost:3000/).  If you want to contribute, check out our [Github](https://github.com/oslabs-beta/Athena).
