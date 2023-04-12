@@ -14,11 +14,12 @@ main {
   position: relative;
   height: calc(100vh - 3.9rem);
   overflow: hidden;
-  /* background-image: url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg);
+  background-color:black;
+  background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(0, 0, 0, 0.5) 20%,rgb(0, 0, 0) 100%), url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg);
+  background-position:top center;
+  background-size:100% auto;
   background-size: cover;
-  background-position: center;
-  scroll-snap-align: start;
+  scroll-snap-align:start;
 }
 
 @media screen and (max-width: 996px) {

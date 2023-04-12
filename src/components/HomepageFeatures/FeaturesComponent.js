@@ -74,13 +74,9 @@ function Feature({Svg, title, description, isEven, mediaPath}) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.containerElement}>
-      {/* <div className={clsx(styles.containerElement)}> */}
-        {/* <div className="row"> */}
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        {/* </div> */}
-      {/* </div> */}
+      {FeatureList.map((props, idx) => (
+        <Feature key={idx} {...props} />
+      ))}
     </section>
   );
 }
