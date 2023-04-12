@@ -4,102 +4,102 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/athena-website/__docusaurus/debug',
-    component: ComponentCreator('/athena-website/__docusaurus/debug', '0e4'),
+    component: ComponentCreator('/athena-website/__docusaurus/debug', '404'),
     exact: true
   },
   {
     path: '/athena-website/__docusaurus/debug/config',
-    component: ComponentCreator('/athena-website/__docusaurus/debug/config', 'd39'),
+    component: ComponentCreator('/athena-website/__docusaurus/debug/config', 'ecd'),
     exact: true
   },
   {
     path: '/athena-website/__docusaurus/debug/content',
-    component: ComponentCreator('/athena-website/__docusaurus/debug/content', '9ae'),
+    component: ComponentCreator('/athena-website/__docusaurus/debug/content', 'ea1'),
     exact: true
   },
   {
     path: '/athena-website/__docusaurus/debug/globalData',
-    component: ComponentCreator('/athena-website/__docusaurus/debug/globalData', '9de'),
+    component: ComponentCreator('/athena-website/__docusaurus/debug/globalData', '1c1'),
     exact: true
   },
   {
     path: '/athena-website/__docusaurus/debug/metadata',
-    component: ComponentCreator('/athena-website/__docusaurus/debug/metadata', '91d'),
+    component: ComponentCreator('/athena-website/__docusaurus/debug/metadata', '8d2'),
     exact: true
   },
   {
     path: '/athena-website/__docusaurus/debug/registry',
-    component: ComponentCreator('/athena-website/__docusaurus/debug/registry', '30c'),
+    component: ComponentCreator('/athena-website/__docusaurus/debug/registry', '41d'),
     exact: true
   },
   {
     path: '/athena-website/__docusaurus/debug/routes',
-    component: ComponentCreator('/athena-website/__docusaurus/debug/routes', '38a'),
+    component: ComponentCreator('/athena-website/__docusaurus/debug/routes', 'b17'),
     exact: true
   },
   {
     path: '/athena-website/blog',
-    component: ComponentCreator('/athena-website/blog', '52e'),
+    component: ComponentCreator('/athena-website/blog', '6c2'),
     exact: true
   },
   {
     path: '/athena-website/blog/archive',
-    component: ComponentCreator('/athena-website/blog/archive', '141'),
+    component: ComponentCreator('/athena-website/blog/archive', '924'),
     exact: true
   },
   {
     path: '/athena-website/blog/first-blog-post',
-    component: ComponentCreator('/athena-website/blog/first-blog-post', '019'),
+    component: ComponentCreator('/athena-website/blog/first-blog-post', '581'),
     exact: true
   },
   {
     path: '/athena-website/blog/long-blog-post',
-    component: ComponentCreator('/athena-website/blog/long-blog-post', '556'),
+    component: ComponentCreator('/athena-website/blog/long-blog-post', 'f4e'),
     exact: true
   },
   {
     path: '/athena-website/blog/mdx-blog-post',
-    component: ComponentCreator('/athena-website/blog/mdx-blog-post', '700'),
+    component: ComponentCreator('/athena-website/blog/mdx-blog-post', 'edb'),
     exact: true
   },
   {
     path: '/athena-website/blog/tags',
-    component: ComponentCreator('/athena-website/blog/tags', '210'),
+    component: ComponentCreator('/athena-website/blog/tags', '552'),
     exact: true
   },
   {
     path: '/athena-website/blog/tags/docusaurus',
-    component: ComponentCreator('/athena-website/blog/tags/docusaurus', 'c34'),
+    component: ComponentCreator('/athena-website/blog/tags/docusaurus', '0ae'),
     exact: true
   },
   {
     path: '/athena-website/blog/tags/facebook',
-    component: ComponentCreator('/athena-website/blog/tags/facebook', '19a'),
+    component: ComponentCreator('/athena-website/blog/tags/facebook', '0aa'),
     exact: true
   },
   {
     path: '/athena-website/blog/tags/hello',
-    component: ComponentCreator('/athena-website/blog/tags/hello', '785'),
+    component: ComponentCreator('/athena-website/blog/tags/hello', '264'),
     exact: true
   },
   {
     path: '/athena-website/blog/tags/hola',
-    component: ComponentCreator('/athena-website/blog/tags/hola', '563'),
+    component: ComponentCreator('/athena-website/blog/tags/hola', '01c'),
     exact: true
   },
   {
     path: '/athena-website/blog/welcome',
-    component: ComponentCreator('/athena-website/blog/welcome', 'c54'),
+    component: ComponentCreator('/athena-website/blog/welcome', '3c1'),
     exact: true
   },
   {
     path: '/athena-website/markdown-page',
-    component: ComponentCreator('/athena-website/markdown-page', '9f4'),
+    component: ComponentCreator('/athena-website/markdown-page', '531'),
     exact: true
   },
   {
     path: '/athena-website/docs',
-    component: ComponentCreator('/athena-website/docs', '666'),
+    component: ComponentCreator('/athena-website/docs', '21d'),
     routes: [
       {
         path: '/athena-website/docs/category/building--editing-components',
@@ -201,7 +201,7 @@ export default [
   },
   {
     path: '/athena-website/',
-    component: ComponentCreator('/athena-website/', '467'),
+    component: ComponentCreator('/athena-website/', 'db3'),
     exact: true
   },
   {

@@ -1,6 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -61,6 +62,7 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+        
     ({
       // Replace with your project's social card
       image: "img/athenajs_social_card.png",
@@ -80,9 +82,22 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/oslabs-beta/Athena",
-            label: "GitHub",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
+          {
+            href: "https://twitter.com/AthenaJSDev",
+            position: "right",
+            className: "header-twitter-link",
+            "aria-label": "Twitter",
+          },
+          {
+            href: "https://discord.gg/6xkMNXtBYp",
+            position: "right",
+            className: "header-discord-link",
+            "aria-label": "Discord",
+          }
         ],
       },
       footer: {

@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/dkc213/Desktop/CS Stuff/athena-website/sidebars.js",
-          "contentPath": "/Users/dkc213/Desktop/CS Stuff/athena-website/docs",
-          "contentPathLocalized": "/Users/dkc213/Desktop/CS Stuff/athena-website/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/mattfookoo/oslabs/athena-website/sidebars.js",
+          "contentPath": "/home/mattfookoo/oslabs/athena-website/docs",
+          "contentPathLocalized": "/home/mattfookoo/oslabs/athena-website/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "editing-your-component/Edit Components",

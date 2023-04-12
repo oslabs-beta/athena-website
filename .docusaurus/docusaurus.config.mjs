@@ -27,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/dkc213/Desktop/CS Stuff/athena-website/sidebars.js",
+          "sidebarPath": "/home/mattfookoo/oslabs/athena-website/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -35,7 +35,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/dkc213/Desktop/CS Stuff/athena-website/src/css/custom.css"
+          "customCss": "/home/mattfookoo/oslabs/athena-website/src/css/custom.css"
         }
       }
     ]
@@ -62,8 +62,21 @@ export default {
         },
         {
           "href": "https://github.com/oslabs-beta/Athena",
-          "label": "GitHub",
-          "position": "right"
+          "position": "right",
+          "className": "header-github-link",
+          "aria-label": "GitHub repository"
+        },
+        {
+          "href": "https://twitter.com/AthenaJSDev",
+          "position": "right",
+          "className": "header-twitter-link",
+          "aria-label": "Twitter"
+        },
+        {
+          "href": "https://discord.gg/6xkMNXtBYp",
+          "position": "right",
+          "className": "header-discord-link",
+          "aria-label": "Discord"
         }
       ],
       "hideOnScroll": false
