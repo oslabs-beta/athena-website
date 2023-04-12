@@ -6,7 +6,7 @@
 export default {
   "title": "AthenaJS",
   "tagline": "Building Components Has Never Been This Easy",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/athena_icon_whitebg.png",
   "url": "https://oslabs-beta.github.io",
   "baseUrl": "/athena-website/",
   "organizationName": "oslabs-beta",
@@ -51,22 +51,25 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Docs"
         },
         {
           "href": "https://github.com/oslabs-beta/Athena",
-          "label": "GitHub",
-          "position": "right"
-        },
-        {
-          "href": "https://discord.gg/ghDc4zPq",
-          "label": "Discord",
-          "position": "right"
+          "position": "right",
+          "className": "header-github-link",
+          "aria-label": "GitHub repository"
         },
         {
           "href": "https://twitter.com/AthenaJSDev",
-          "label": "Twitter",
-          "position": "right"
+          "position": "right",
+          "className": "header-twitter-link",
+          "aria-label": "Twitter"
+        },
+        {
+          "href": "https://discord.gg/6xkMNXtBYp",
+          "position": "right",
+          "className": "header-discord-link",
+          "aria-label": "Discord"
         }
       ],
       "hideOnScroll": false

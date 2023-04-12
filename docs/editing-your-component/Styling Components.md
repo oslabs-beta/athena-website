@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Styling Components
 
-AthenaJS includes styled-component integration.  Read more about styled-components <a href = 'https://styled-components.com/docs'>here</a>.
+AthenaJS includes styled-component integration.  Read more about styled-components in their <a href = 'https://styled-components.com/docs'>documentation</a>.
 
 ## Why Styled Components?
 

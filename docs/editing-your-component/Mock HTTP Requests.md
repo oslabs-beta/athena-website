@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Mock HTTP Requests
 
-AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their documentation <a href = 'https://www.wheresrhys.co.uk/fetch-mock/#aboutintroduction'> here </a>.
+AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their <a href = 'https://www.wheresrhys.co.uk/fetch-mock/#aboutintroduction'> documentation</a>.
 
 ### When to use this feature
 

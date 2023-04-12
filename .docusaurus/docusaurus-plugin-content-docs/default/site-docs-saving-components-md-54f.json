@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Saving Components",
+  "id": "Saving Components",
+  "title": "Saving Components",
+  "description": "Once users have created and rendered their component, they can add it to their component library by clicking on the Save Component button.",
+  "source": "@site/docs/Saving Components.md",
+  "sourceDirName": ".",
+  "slug": "/Saving Components",
+  "permalink": "/athena-website/docs/Saving Components",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rendering Your Component",
+    "permalink": "/athena-website/docs/editing-your-component/Rendering Components"
+  },
+  "next": {
+    "title": "Performance Data",
+    "permalink": "/athena-website/docs/Performance Data"
+  }
+}

@@ -61,19 +61,22 @@
         "href": "/athena-website/docs/category/building--editing-components"
       },
       {
-        "type": "category",
-        "label": "UI Mode",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "manage-docs-versions",
-            "href": "/athena-website/docs/UI-mode/manage-docs-versions",
-            "docId": "UI-mode/manage-docs-versions"
-          }
-        ],
-        "href": "/athena-website/docs/category/ui-mode"
+        "type": "link",
+        "label": "Saving Components",
+        "href": "/athena-website/docs/Saving Components",
+        "docId": "Saving Components"
+      },
+      {
+        "type": "link",
+        "label": "Performance Data",
+        "href": "/athena-website/docs/Performance Data",
+        "docId": "Performance Data"
+      },
+      {
+        "type": "link",
+        "label": "UI Whiteboard",
+        "href": "/athena-website/docs/UI Whiteboard",
+        "docId": "UI Whiteboard"
       }
     ]
   },
@@ -87,7 +90,7 @@
     "editing-your-component/Mock HTTP Requests": {
       "id": "editing-your-component/Mock HTTP Requests",
       "title": "Mock HTTP Requests",
-      "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their documentation  here .",
+      "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their  documentation.",
       "sidebar": "tutorialSidebar"
     },
     "editing-your-component/Rendering Components": {
@@ -99,7 +102,7 @@
     "editing-your-component/Styling Components": {
       "id": "editing-your-component/Styling Components",
       "title": "Styling Components",
-      "description": "AthenaJS includes styled-component integration.  Read more about styled-components here.",
+      "description": "AthenaJS includes styled-component integration.  Read more about styled-components in their documentation.",
       "sidebar": "tutorialSidebar"
     },
     "editing-your-component/Upload Components": {
@@ -114,16 +117,28 @@
       "description": "Introduction to AthenaJS:",
       "sidebar": "tutorialSidebar"
     },
+    "Performance Data": {
+      "id": "Performance Data",
+      "title": "Performance Data",
+      "description": "When a user renders a component on the Component Workshop or Saved Components pages, the render data for that component is displayed on the top-right corner of the screen.",
+      "sidebar": "tutorialSidebar"
+    },
     "Quickstart": {
       "id": "Quickstart",
       "title": "Quickstart",
       "description": "Navigate to the 'Edit Component' tab on the Navbar to view the code editors.",
       "sidebar": "tutorialSidebar"
     },
-    "UI-mode/manage-docs-versions": {
-      "id": "UI-mode/manage-docs-versions",
-      "title": "manage-docs-versions",
-      "description": "",
+    "Saving Components": {
+      "id": "Saving Components",
+      "title": "Saving Components",
+      "description": "Once users have created and rendered their component, they can add it to their component library by clicking on the Save Component button.",
+      "sidebar": "tutorialSidebar"
+    },
+    "UI Whiteboard": {
+      "id": "UI Whiteboard",
+      "title": "UI Whiteboard",
+      "description": "What is the UI Whiteboard?",
       "sidebar": "tutorialSidebar"
     }
   }

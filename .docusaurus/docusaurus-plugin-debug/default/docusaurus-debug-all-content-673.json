@@ -47,7 +47,7 @@
               "unversionedId": "editing-your-component/Mock HTTP Requests",
               "id": "editing-your-component/Mock HTTP Requests",
               "title": "Mock HTTP Requests",
-              "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their documentation  here .",
+              "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their  documentation.",
               "source": "@site/docs/editing-your-component/Mock HTTP Requests.md",
               "sourceDirName": "editing-your-component",
               "slug": "/editing-your-component/Mock HTTP Requests",
@@ -91,15 +91,15 @@
                 "permalink": "/athena-website/docs/editing-your-component/Styling Components"
               },
               "next": {
-                "title": "UI Mode",
-                "permalink": "/athena-website/docs/category/ui-mode"
+                "title": "Saving Components",
+                "permalink": "/athena-website/docs/Saving Components"
               }
             },
             {
               "unversionedId": "editing-your-component/Styling Components",
               "id": "editing-your-component/Styling Components",
               "title": "Styling Components",
-              "description": "AthenaJS includes styled-component integration.  Read more about styled-components here.",
+              "description": "AthenaJS includes styled-component integration.  Read more about styled-components in their documentation.",
               "source": "@site/docs/editing-your-component/Styling Components.md",
               "sourceDirName": "editing-your-component",
               "slug": "/editing-your-component/Styling Components",
@@ -170,6 +170,32 @@
               }
             },
             {
+              "unversionedId": "Performance Data",
+              "id": "Performance Data",
+              "title": "Performance Data",
+              "description": "When a user renders a component on the Component Workshop or Saved Components pages, the render data for that component is displayed on the top-right corner of the screen.",
+              "source": "@site/docs/Performance Data.md",
+              "sourceDirName": ".",
+              "slug": "/Performance Data",
+              "permalink": "/athena-website/docs/Performance Data",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Saving Components",
+                "permalink": "/athena-website/docs/Saving Components"
+              },
+              "next": {
+                "title": "UI Whiteboard",
+                "permalink": "/athena-website/docs/UI Whiteboard"
+              }
+            },
+            {
               "unversionedId": "Quickstart",
               "id": "Quickstart",
               "title": "Quickstart",
@@ -196,25 +222,51 @@
               }
             },
             {
-              "unversionedId": "UI-mode/manage-docs-versions",
-              "id": "UI-mode/manage-docs-versions",
-              "title": "manage-docs-versions",
-              "description": "",
-              "source": "@site/docs/UI-mode/manage-docs-versions.md",
-              "sourceDirName": "UI-mode",
-              "slug": "/UI-mode/manage-docs-versions",
-              "permalink": "/athena-website/docs/UI-mode/manage-docs-versions",
+              "unversionedId": "Saving Components",
+              "id": "Saving Components",
+              "title": "Saving Components",
+              "description": "Once users have created and rendered their component, they can add it to their component library by clicking on the Save Component button.",
+              "source": "@site/docs/Saving Components.md",
+              "sourceDirName": ".",
+              "slug": "/Saving Components",
+              "permalink": "/athena-website/docs/Saving Components",
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "UI Mode",
-                "permalink": "/athena-website/docs/category/ui-mode"
+                "title": "Rendering Your Component",
+                "permalink": "/athena-website/docs/editing-your-component/Rendering Components"
+              },
+              "next": {
+                "title": "Performance Data",
+                "permalink": "/athena-website/docs/Performance Data"
+              }
+            },
+            {
+              "unversionedId": "UI Whiteboard",
+              "id": "UI Whiteboard",
+              "title": "UI Whiteboard",
+              "description": "What is the UI Whiteboard?",
+              "source": "@site/docs/UI Whiteboard.md",
+              "sourceDirName": ".",
+              "slug": "/UI Whiteboard",
+              "permalink": "/athena-website/docs/UI Whiteboard",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Performance Data",
+                "permalink": "/athena-website/docs/Performance Data"
               }
             }
           ],
@@ -264,21 +316,16 @@
                 }
               },
               {
-                "type": "category",
-                "label": "UI Mode",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "UI-mode/manage-docs-versions"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/ui-mode",
-                  "permalink": "/athena-website/docs/category/ui-mode"
-                }
+                "type": "doc",
+                "id": "Saving Components"
+              },
+              {
+                "type": "doc",
+                "id": "Performance Data"
+              },
+              {
+                "type": "doc",
+                "id": "UI Whiteboard"
               }
             ]
           }
