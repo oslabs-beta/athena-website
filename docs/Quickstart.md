@@ -14,22 +14,20 @@ Code for a default button will already be placed in the editors for you, if you 
 
 Here is a visual aid to show you how your component is being built from the code in the terminal
 
-```JS
+```
 import 'some_import' from 'somewhere'
-// more import statements...
+more import statements...
 
 const myComponent = () => {
-  /**
-   *
-   * Body Editor Output goes here
-   *
-   **/
+  ______________
+  Body goes here
+  ______________
+  
   return(
-  /**
-   *
-   * JSX Editor Output goes here
-   * 
-   **/
+    _____________
+    JSX Goes Here
+    _____________
+
   );
 };
 

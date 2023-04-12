@@ -8,27 +8,24 @@ In AthenaJS, there are two code editors:
 
 **Body:** This editor holds everything but the code in the return statement of the component (variables, hooks, functions, etc.)
 
-**JSX:** This editor holds the JSX in the return statement of the component.
-currently Athena V1 doesn't handle <mark>multiple JSX Element return statements</mark>
+**JSX:** This editor holds the JSX in the return statement of the component
 
 Here is a visual aid to show you how your component is being built from the code in the terminal
 
-```JS
+```
 import 'some_import' from 'somewhere'
-// more import statements...
+more import statements...
 
 const myComponent = () => {
-  /**
-   *
-   * Body Editor Output goes here
-   *
-   **/
+  ______________
+  Body goes here
+  ______________
+  
   return(
-  /**
-   *
-   * JSX Editor Output goes here
-   * 
-   **/
+    _____________
+    JSX Goes Here
+    _____________
+
   );
 };
 

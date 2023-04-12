@@ -41,28 +41,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Performance Data",
-              "path": "/athena-website/docs/Performance Data",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Quickstart",
               "path": "/athena-website/docs/Quickstart",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Saving Components",
-              "path": "/athena-website/docs/Saving Components",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "UI Whiteboard",
-              "path": "/athena-website/docs/UI Whiteboard",
+              "id": "UI-mode/manage-docs-versions",
+              "path": "/athena-website/docs/UI-mode/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/building--editing-components",
               "path": "/athena-website/docs/category/building--editing-components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/ui-mode",
+              "path": "/athena-website/docs/category/ui-mode",
               "sidebar": "tutorialSidebar"
             }
           ],

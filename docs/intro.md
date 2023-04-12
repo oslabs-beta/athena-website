@@ -35,4 +35,4 @@ Once you have met these prerequisites, you can install AthenaJS and begin develo
 
 ## Installing Athena JS
 
-Download AthenaJS through the [homepage](https://oslabs-beta.github.io/athena-website/).  If you want to contribute, check out our [Github](https://github.com/oslabs-beta/Athena).
+Download AthenaJS through the [homepage](http://localhost:3000/).  If you want to contribute, check out our [Github](https://github.com/oslabs-beta/Athena).

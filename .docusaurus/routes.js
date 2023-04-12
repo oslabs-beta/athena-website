@@ -44,11 +44,17 @@ export default [
   },
   {
     path: '/athena-website/docs',
-    component: ComponentCreator('/athena-website/docs', '4ae'),
+    component: ComponentCreator('/athena-website/docs', '0a2'),
     routes: [
       {
         path: '/athena-website/docs/category/building--editing-components',
         component: ComponentCreator('/athena-website/docs/category/building--editing-components', '6eb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/athena-website/docs/category/ui-mode',
+        component: ComponentCreator('/athena-website/docs/category/ui-mode', '50a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -89,26 +95,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/athena-website/docs/Performance Data',
-        component: ComponentCreator('/athena-website/docs/Performance Data', '7cc'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/athena-website/docs/Quickstart',
         component: ComponentCreator('/athena-website/docs/Quickstart', '236'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/athena-website/docs/Saving Components',
-        component: ComponentCreator('/athena-website/docs/Saving Components', 'b3d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/athena-website/docs/UI Whiteboard',
-        component: ComponentCreator('/athena-website/docs/UI Whiteboard', '8d4'),
+        path: '/athena-website/docs/UI-mode/manage-docs-versions',
+        component: ComponentCreator('/athena-website/docs/UI-mode/manage-docs-versions', '1c3'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

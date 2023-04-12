@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "AthenaJS",
   tagline: "Building Components Has Never Been This Easy",
-  favicon: "img/athena_icon_whitebg.png",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://oslabs-beta.github.io",
@@ -71,25 +71,22 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Docs",
+            label: "Tutorial",
           },
           {
             href: "https://github.com/oslabs-beta/Athena",
+            label: "GitHub",
             position: "right",
-            className: "header-github-link",
-            "aria-label": "GitHub repository",
+          },
+          {
+            href: "https://discord.gg/ghDc4zPq",
+            label: "Discord",
+            position: "right",
           },
           {
             href: "https://twitter.com/AthenaJSDev",
-            position: "right", 
-            className: "header-twitter-link",
-            "aria-label": "Twitter",
-          },
-          {
-            href: "https://discord.gg/6xkMNXtBYp",
+            label: "Twitter",
             position: "right",
-            className: "header-discord-link",
-            "aria-label": "Discord",
           }
         ],
       },

@@ -2,7 +2,7 @@
   "unversionedId": "editing-your-component/Mock HTTP Requests",
   "id": "editing-your-component/Mock HTTP Requests",
   "title": "Mock HTTP Requests",
-  "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their  documentation.",
+  "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their documentation  here .",
   "source": "@site/docs/editing-your-component/Mock HTTP Requests.md",
   "sourceDirName": "editing-your-component",
   "slug": "/editing-your-component/Mock HTTP Requests",
