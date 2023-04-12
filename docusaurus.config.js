@@ -81,7 +81,7 @@ const config = {
           },
           {
             href: "https://twitter.com/AthenaJSDev",
-            position: "right", 
+            position: "right",
             className: "header-twitter-link",
             "aria-label": "Twitter",
           },
@@ -90,7 +90,7 @@ const config = {
             position: "right",
             className: "header-discord-link",
             "aria-label": "Discord",
-          }
+          },
         ],
       },
       prism: {
