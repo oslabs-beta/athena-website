@@ -9,15 +9,15 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
+          "path": "/athena-website/docs",
+          "tagsPath": "/athena-website/docs/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "E:\\coding-stuff\\codesmith-OSP\\Athena-website\\athena-website\\sidebars.js",
-          "contentPath": "E:\\coding-stuff\\codesmith-OSP\\Athena-website\\athena-website\\docs",
-          "contentPathLocalized": "E:\\coding-stuff\\codesmith-OSP\\Athena-website\\athena-website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "/Users/ryanmotamen/Desktop/athena-website/sidebars.js",
+          "contentPath": "/Users/ryanmotamen/Desktop/athena-website/docs",
+          "contentPathLocalized": "/Users/ryanmotamen/Desktop/athena-website/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "editing-your-component/defining-actions",
@@ -27,7 +27,7 @@
               "source": "@site/docs/editing-your-component/defining-actions.md",
               "sourceDirName": "editing-your-component",
               "slug": "/editing-your-component/defining-actions",
-              "permalink": "/docs/editing-your-component/defining-actions",
+              "permalink": "/athena-website/docs/editing-your-component/defining-actions",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/defining-actions.md",
               "tags": [],
@@ -39,11 +39,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Mocking State",
-                "permalink": "/docs/editing-your-component/mocking-state"
+                "permalink": "/athena-website/docs/editing-your-component/mocking-state"
               },
               "next": {
                 "title": "Rendering Your Component",
-                "permalink": "/docs/editing-your-component/rendering-component"
+                "permalink": "/athena-website/docs/editing-your-component/rendering-component"
               }
             },
             {
@@ -54,7 +54,7 @@
               "source": "@site/docs/editing-your-component/mocking-props.md",
               "sourceDirName": "editing-your-component",
               "slug": "/editing-your-component/mocking-props",
-              "permalink": "/docs/editing-your-component/mocking-props",
+              "permalink": "/athena-website/docs/editing-your-component/mocking-props",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/mocking-props.md",
               "tags": [],
@@ -66,11 +66,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Editing Your Component",
-                "permalink": "/docs/category/editing-your-component"
+                "permalink": "/athena-website/docs/category/editing-your-component"
               },
               "next": {
                 "title": "Mocking State",
-                "permalink": "/docs/editing-your-component/mocking-state"
+                "permalink": "/athena-website/docs/editing-your-component/mocking-state"
               }
             },
             {
@@ -81,7 +81,7 @@
               "source": "@site/docs/editing-your-component/mocking-state.md",
               "sourceDirName": "editing-your-component",
               "slug": "/editing-your-component/mocking-state",
-              "permalink": "/docs/editing-your-component/mocking-state",
+              "permalink": "/athena-website/docs/editing-your-component/mocking-state",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/mocking-state.md",
               "tags": [],
@@ -93,11 +93,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Mocking Props",
-                "permalink": "/docs/editing-your-component/mocking-props"
+                "permalink": "/athena-website/docs/editing-your-component/mocking-props"
               },
               "next": {
                 "title": "Mocking Functions",
-                "permalink": "/docs/editing-your-component/defining-actions"
+                "permalink": "/athena-website/docs/editing-your-component/defining-actions"
               }
             },
             {
@@ -108,7 +108,7 @@
               "source": "@site/docs/editing-your-component/rendering-component.md",
               "sourceDirName": "editing-your-component",
               "slug": "/editing-your-component/rendering-component",
-              "permalink": "/docs/editing-your-component/rendering-component",
+              "permalink": "/athena-website/docs/editing-your-component/rendering-component",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/rendering-component.md",
               "tags": [],
@@ -120,11 +120,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Mocking Functions",
-                "permalink": "/docs/editing-your-component/defining-actions"
+                "permalink": "/athena-website/docs/editing-your-component/defining-actions"
               },
               "next": {
                 "title": "UI Mode",
-                "permalink": "/docs/category/ui-mode"
+                "permalink": "/athena-website/docs/category/ui-mode"
               }
             },
             {
@@ -135,7 +135,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/intro",
+              "permalink": "/athena-website/docs/intro",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
@@ -147,30 +147,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Editing Your Component",
-                "permalink": "/docs/category/editing-your-component"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "title": "Defining Actions",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Mocking State",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/athena-website/docs/category/editing-your-component"
               }
             },
             {
@@ -181,7 +158,7 @@
               "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "permalink": "/athena-website/docs/tutorial-basics/create-a-blog-post",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
@@ -193,11 +170,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Editing Your Component",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/athena-website/docs/tutorial-basics/create-a-document"
               },
               "next": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/athena-website/docs/tutorial-basics/markdown-features"
               }
             },
             {
@@ -208,7 +185,7 @@
               "source": "@site/docs/tutorial-basics/create-a-document.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
+              "permalink": "/athena-website/docs/tutorial-basics/create-a-document",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
               "tags": [],
@@ -220,11 +197,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Importing Your File",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/athena-website/docs/tutorial-basics/create-a-page"
               },
               "next": {
                 "title": "Mocking Props",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/athena-website/docs/tutorial-basics/create-a-blog-post"
               }
             },
             {
@@ -235,7 +212,7 @@
               "source": "@site/docs/tutorial-basics/create-a-page.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
+              "permalink": "/athena-website/docs/tutorial-basics/create-a-page",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
               "tags": [],
@@ -247,11 +224,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "permalink": "/athena-website/docs/category/tutorial---basics"
               },
               "next": {
                 "title": "Editing Your Component",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/athena-website/docs/tutorial-basics/create-a-document"
               }
             },
             {
@@ -262,7 +239,7 @@
               "source": "@site/docs/tutorial-basics/deploy-your-site.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
+              "permalink": "/athena-website/docs/tutorial-basics/deploy-your-site",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
@@ -274,11 +251,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Defining Actions",
-                "permalink": "/docs/tutorial-basics/congratulations"
+                "permalink": "/athena-website/docs/tutorial-basics/markdown-features"
               }
             },
             {
@@ -289,7 +262,7 @@
               "source": "@site/docs/tutorial-basics/markdown-features.mdx",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
+              "permalink": "/athena-website/docs/tutorial-basics/markdown-features",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
@@ -301,11 +274,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Mocking Props",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/athena-website/docs/tutorial-basics/create-a-blog-post"
               },
               "next": {
                 "title": "Mocking State",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/athena-website/docs/tutorial-basics/deploy-your-site"
               }
             },
             {
@@ -316,7 +289,7 @@
               "source": "@site/docs/UI-mode/manage-docs-versions.md",
               "sourceDirName": "UI-mode",
               "slug": "/UI-mode/manage-docs-versions",
-              "permalink": "/docs/UI-mode/manage-docs-versions",
+              "permalink": "/athena-website/docs/UI-mode/manage-docs-versions",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/UI-mode/manage-docs-versions.md",
               "tags": [],
@@ -328,11 +301,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "UI Mode",
-                "permalink": "/docs/category/ui-mode"
+                "permalink": "/athena-website/docs/category/ui-mode"
               },
               "next": {
                 "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "permalink": "/athena-website/docs/category/tutorial---basics"
               }
             }
           ],
@@ -370,7 +343,7 @@
                   "type": "generated-index",
                   "description": "Core AthenaJS Concepts",
                   "slug": "/category/editing-your-component",
-                  "permalink": "/docs/category/editing-your-component"
+                  "permalink": "/athena-website/docs/category/editing-your-component"
                 }
               },
               {
@@ -387,7 +360,7 @@
                 "link": {
                   "type": "generated-index",
                   "slug": "/category/ui-mode",
-                  "permalink": "/docs/category/ui-mode"
+                  "permalink": "/athena-website/docs/category/ui-mode"
                 }
               },
               {
@@ -415,17 +388,13 @@
                   {
                     "type": "doc",
                     "id": "tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/congratulations"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "Core AthenaJS Concepts",
                   "slug": "/category/tutorial---basics",
-                  "permalink": "/docs/category/tutorial---basics"
+                  "permalink": "/athena-website/docs/category/tutorial---basics"
                 }
               }
             ]
@@ -441,7 +410,7 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/blog/welcome",
+            "permalink": "/athena-website/blog/welcome",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
@@ -451,15 +420,15 @@
             "tags": [
               {
                 "label": "facebook",
-                "permalink": "/blog/tags/facebook"
+                "permalink": "/athena-website/blog/tags/facebook"
               },
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/athena-website/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/athena-website/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.405,
@@ -495,7 +464,7 @@
             },
             "nextItem": {
               "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
+              "permalink": "/athena-website/blog/mdx-blog-post"
             }
           },
           "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
@@ -503,7 +472,7 @@
         {
           "id": "mdx-blog-post",
           "metadata": {
-            "permalink": "/blog/mdx-blog-post",
+            "permalink": "/athena-website/blog/mdx-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
@@ -513,7 +482,7 @@
             "tags": [
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/athena-website/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.175,
@@ -539,11 +508,11 @@
             },
             "prevItem": {
               "title": "Welcome",
-              "permalink": "/blog/welcome"
+              "permalink": "/athena-website/blog/welcome"
             },
             "nextItem": {
               "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
+              "permalink": "/athena-website/blog/long-blog-post"
             }
           },
           "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
@@ -551,7 +520,7 @@
         {
           "id": "long-blog-post",
           "metadata": {
-            "permalink": "/blog/long-blog-post",
+            "permalink": "/athena-website/blog/long-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
@@ -561,11 +530,11 @@
             "tags": [
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/athena-website/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/athena-website/blog/tags/docusaurus"
               }
             ],
             "readingTime": 2.05,
@@ -590,11 +559,11 @@
             },
             "prevItem": {
               "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
+              "permalink": "/athena-website/blog/mdx-blog-post"
             },
             "nextItem": {
               "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
+              "permalink": "/athena-website/blog/first-blog-post"
             }
           },
           "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
@@ -602,7 +571,7 @@
         {
           "id": "first-blog-post",
           "metadata": {
-            "permalink": "/blog/first-blog-post",
+            "permalink": "/athena-website/blog/first-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
@@ -612,11 +581,11 @@
             "tags": [
               {
                 "label": "hola",
-                "permalink": "/blog/tags/hola"
+                "permalink": "/athena-website/blog/tags/hola"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/athena-website/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.12,
@@ -647,7 +616,7 @@
             },
             "prevItem": {
               "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
+              "permalink": "/athena-website/blog/long-blog-post"
             }
           },
           "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
@@ -662,7 +631,7 @@
             "first-blog-post"
           ],
           "metadata": {
-            "permalink": "/blog",
+            "permalink": "/athena-website/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -673,19 +642,19 @@
         }
       ],
       "blogTags": {
-        "/blog/tags/facebook": {
+        "/athena-website/blog/tags/facebook": {
           "label": "facebook",
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/facebook",
+          "permalink": "/athena-website/blog/tags/facebook",
           "pages": [
             {
               "items": [
                 "welcome"
               ],
               "metadata": {
-                "permalink": "/blog/tags/facebook",
+                "permalink": "/athena-website/blog/tags/facebook",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -696,13 +665,13 @@
             }
           ]
         },
-        "/blog/tags/hello": {
+        "/athena-website/blog/tags/hello": {
           "label": "hello",
           "items": [
             "welcome",
             "long-blog-post"
           ],
-          "permalink": "/blog/tags/hello",
+          "permalink": "/athena-website/blog/tags/hello",
           "pages": [
             {
               "items": [
@@ -710,7 +679,7 @@
                 "long-blog-post"
               ],
               "metadata": {
-                "permalink": "/blog/tags/hello",
+                "permalink": "/athena-website/blog/tags/hello",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -721,7 +690,7 @@
             }
           ]
         },
-        "/blog/tags/docusaurus": {
+        "/athena-website/blog/tags/docusaurus": {
           "label": "docusaurus",
           "items": [
             "welcome",
@@ -729,7 +698,7 @@
             "long-blog-post",
             "first-blog-post"
           ],
-          "permalink": "/blog/tags/docusaurus",
+          "permalink": "/athena-website/blog/tags/docusaurus",
           "pages": [
             {
               "items": [
@@ -739,7 +708,7 @@
                 "first-blog-post"
               ],
               "metadata": {
-                "permalink": "/blog/tags/docusaurus",
+                "permalink": "/athena-website/blog/tags/docusaurus",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -750,19 +719,19 @@
             }
           ]
         },
-        "/blog/tags/hola": {
+        "/athena-website/blog/tags/hola": {
           "label": "hola",
           "items": [
             "first-blog-post"
           ],
-          "permalink": "/blog/tags/hola",
+          "permalink": "/athena-website/blog/tags/hola",
           "pages": [
             {
               "items": [
                 "first-blog-post"
               ],
               "metadata": {
-                "permalink": "/blog/tags/hola",
+                "permalink": "/athena-website/blog/tags/hola",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -774,19 +743,19 @@
           ]
         }
       },
-      "blogTagsListPath": "/blog/tags"
+      "blogTagsListPath": "/athena-website/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/athena-website/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/markdown-page",
+        "permalink": "/athena-website/markdown-page",
         "source": "@site/src/pages/markdown-page.md",
         "title": "Markdown page example",
         "description": "You don't need React to write simple standalone pages.",
