@@ -1,6 +1,6 @@
 {
-  "label": "Editing Your Component",
-  "position": 2,
+  "label": "Building & Editing Components",
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "Core AthenaJS Concepts"

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "editing-your-component/Rendering Components",
+  "id": "editing-your-component/Rendering Components",
+  "title": "Rendering Your Component",
+  "description": "After defining the Body & JSX of their component, users can render their component in the Component window by following these steps:",
+  "source": "@site/docs/editing-your-component/Rendering Components.md",
+  "sourceDirName": "editing-your-component",
+  "slug": "/editing-your-component/Rendering Components",
+  "permalink": "/athena-website/docs/editing-your-component/Rendering Components",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/Rendering Components.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Styling Components",
+    "permalink": "/athena-website/docs/editing-your-component/Styling Components"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/athena-website/docs/category/tutorial---basics"
+  }
+}
