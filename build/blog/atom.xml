@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://oslabs-beta.github.io/athena-website/blog"/>
     <subtitle>AthenaJS Blog</subtitle>
-    <icon>https://oslabs-beta.github.io/athena-website/img/favicon.ico</icon>
+    <icon>https://oslabs-beta.github.io/athena-website/img/athena_icon_whitebg.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://oslabs-beta.github.io/athena-website/blog/welcome</id>
