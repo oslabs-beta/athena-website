@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Performance Data
 
-When a user renders a component on the Component Workshop or Saved Components pages, the render data for that component is displayed on the top-right corner of the screen. 
+When a user renders a component on the **Component Workshop** or **Saved Components** pages, the render data for that component is displayed on the top-right corner of the screen. 
 
 Users can create a label for this render instance and save it using the **Add Data** button.
 
