@@ -11,9 +11,30 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Getting Started",
+        "label": "Introduction",
         "href": "/docs/intro",
         "docId": "intro"
+      },
+      {
+        "type": "link",
+        "label": "Quickstart",
+        "href": "/docs/Quickstart",
+        "docId": "Quickstart"
+      },
+      {
+        "type": "category",
+        "label": "UI Mode",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "manage-docs-versions",
+            "href": "/docs/UI-mode/manage-docs-versions",
+            "docId": "UI-mode/manage-docs-versions"
+          }
+        ],
+        "href": "/docs/category/ui-mode"
       },
       {
         "type": "category",
@@ -47,21 +68,6 @@
           }
         ],
         "href": "/docs/category/editing-your-component"
-      },
-      {
-        "type": "category",
-        "label": "UI Mode",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "manage-docs-versions",
-            "href": "/docs/UI-mode/manage-docs-versions",
-            "docId": "UI-mode/manage-docs-versions"
-          }
-        ],
-        "href": "/docs/category/ui-mode"
       },
       {
         "type": "category",
@@ -137,8 +143,14 @@
     },
     "intro": {
       "id": "intro",
-      "title": "Getting Started",
+      "title": "Introduction",
       "description": "Introduction to AthenaJS:",
+      "sidebar": "tutorialSidebar"
+    },
+    "Quickstart": {
+      "id": "Quickstart",
+      "title": "Quickstart",
+      "description": "Navigate to the 'Edit Component' tab on the Navbar to view the code editors.",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

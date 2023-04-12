@@ -1,0 +1,16 @@
+{
+  "title": "Quickstart",
+  "description": "Get started building your first component with AthenaJS here",
+  "slug": "/category/quickstart",
+  "permalink": "/docs/category/quickstart",
+  "navigation": {
+    "previous": {
+      "title": "Getting Started",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Coding the Component",
+      "permalink": "/docs/Quickstart/Coding the Component"
+    }
+  }
+}

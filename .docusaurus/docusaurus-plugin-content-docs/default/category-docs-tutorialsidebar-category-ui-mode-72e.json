@@ -4,8 +4,8 @@
   "permalink": "/docs/category/ui-mode",
   "navigation": {
     "previous": {
-      "title": "Rendering Your Component",
-      "permalink": "/docs/editing-your-component/rendering-component"
+      "title": "Quickstart",
+      "permalink": "/docs/Quickstart"
     },
     "next": {
       "title": "manage-docs-versions",

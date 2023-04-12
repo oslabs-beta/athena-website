@@ -36,6 +36,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Quickstart",
+              "path": "/docs/Quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -71,13 +76,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/editing-your-component",
-              "path": "/docs/category/editing-your-component",
+              "id": "/category/ui-mode",
+              "path": "/docs/category/ui-mode",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/ui-mode",
-              "path": "/docs/category/ui-mode",
+              "id": "/category/editing-your-component",
+              "path": "/docs/category/editing-your-component",
               "sidebar": "tutorialSidebar"
             },
             {

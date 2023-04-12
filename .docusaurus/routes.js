@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e13'),
+    component: ComponentCreator('/docs', '056'),
     routes: [
       {
         path: '/docs/category/editing-your-component',
@@ -146,6 +146,12 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Quickstart',
+        component: ComponentCreator('/docs/Quickstart', '397'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

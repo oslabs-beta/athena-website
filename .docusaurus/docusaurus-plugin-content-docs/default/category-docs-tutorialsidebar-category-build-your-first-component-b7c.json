@@ -1,0 +1,16 @@
+{
+  "title": "Build Your First Component",
+  "description": "Get started building your first component with AthenaJS here",
+  "slug": "/category/build-your-first-component",
+  "permalink": "/docs/category/build-your-first-component",
+  "navigation": {
+    "previous": {
+      "title": "Getting Started",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Coding the Component",
+      "permalink": "/docs/building-your-first-component/Coding the Component"
+    }
+  }
+}

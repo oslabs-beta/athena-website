@@ -123,14 +123,14 @@
                 "permalink": "/docs/editing-your-component/defining-actions"
               },
               "next": {
-                "title": "UI Mode",
-                "permalink": "/docs/category/ui-mode"
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/category/tutorial---basics"
               }
             },
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Getting Started",
+              "title": "Introduction",
               "description": "Introduction to AthenaJS:",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -146,8 +146,35 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Editing Your Component",
-                "permalink": "/docs/category/editing-your-component"
+                "title": "Quickstart",
+                "permalink": "/docs/Quickstart"
+              }
+            },
+            {
+              "unversionedId": "Quickstart",
+              "id": "Quickstart",
+              "title": "Quickstart",
+              "description": "Navigate to the 'Edit Component' tab on the Navbar to view the code editors.",
+              "source": "@site/docs/Quickstart.md",
+              "sourceDirName": ".",
+              "slug": "/Quickstart",
+              "permalink": "/docs/Quickstart",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Quickstart.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "UI Mode",
+                "permalink": "/docs/category/ui-mode"
               }
             },
             {
@@ -331,8 +358,8 @@
                 "permalink": "/docs/category/ui-mode"
               },
               "next": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "title": "Editing Your Component",
+                "permalink": "/docs/category/editing-your-component"
               }
             }
           ],
@@ -342,6 +369,27 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "Quickstart"
+              },
+              {
+                "type": "category",
+                "label": "UI Mode",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "UI-mode/manage-docs-versions"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/ui-mode",
+                  "permalink": "/docs/category/ui-mode"
+                }
               },
               {
                 "type": "category",
@@ -371,23 +419,6 @@
                   "description": "Core AthenaJS Concepts",
                   "slug": "/category/editing-your-component",
                   "permalink": "/docs/category/editing-your-component"
-                }
-              },
-              {
-                "type": "category",
-                "label": "UI Mode",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "UI-mode/manage-docs-versions"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/ui-mode",
-                  "permalink": "/docs/category/ui-mode"
                 }
               },
               {

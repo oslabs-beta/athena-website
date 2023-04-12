@@ -1,7 +1,7 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Getting Started",
+  "title": "Introduction",
   "description": "Introduction to AthenaJS:",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Editing Your Component",
-    "permalink": "/docs/category/editing-your-component"
+    "title": "Quickstart",
+    "permalink": "/docs/Quickstart"
   }
 }

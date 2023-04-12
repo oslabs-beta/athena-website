@@ -5,8 +5,8 @@
   "permalink": "/docs/category/editing-your-component",
   "navigation": {
     "previous": {
-      "title": "Getting Started",
-      "permalink": "/docs/intro"
+      "title": "manage-docs-versions",
+      "permalink": "/docs/UI-mode/manage-docs-versions"
     },
     "next": {
       "title": "Mocking Props",
