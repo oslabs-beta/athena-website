@@ -64,50 +64,19 @@ export default {
           "href": "https://github.com/oslabs-beta/Athena",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "href": "https://discord.gg/ghDc4zPq",
+          "label": "Discord",
+          "position": "right"
+        },
+        {
+          "href": "https://twitter.com/AthenaJSDev",
+          "label": "Twitter",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
-    },
-    "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Discord",
-              "href": "https://discord.gg/ghDc4zPq"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/AthenaJSDev"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/oslabs-beta/Athena"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2023 Wheisker Co. Inc."
     },
     "prism": {
       "theme": {

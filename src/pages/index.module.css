@@ -2,6 +2,11 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+main {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
 
 .heroBanner {
   padding: 4rem 0;
@@ -11,9 +16,9 @@
   overflow: hidden;
   /* background-image: url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg);
-  /* background-image: url(../../images/athena.jpg); */
   background-size: cover;
   background-position: center;
+  scroll-snap-align: start;
 }
 
 @media screen and (max-width: 996px) {
