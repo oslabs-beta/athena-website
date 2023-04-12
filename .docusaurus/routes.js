@@ -3,58 +3,38 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/athena-website/blog',
-    component: ComponentCreator('/athena-website/blog', 'e84'),
+    path: '/athena-website/__docusaurus/debug',
+    component: ComponentCreator('/athena-website/__docusaurus/debug', '422'),
     exact: true
   },
   {
-    path: '/athena-website/blog/archive',
-    component: ComponentCreator('/athena-website/blog/archive', 'c1a'),
+    path: '/athena-website/__docusaurus/debug/config',
+    component: ComponentCreator('/athena-website/__docusaurus/debug/config', '7ad'),
     exact: true
   },
   {
-    path: '/athena-website/blog/first-blog-post',
-    component: ComponentCreator('/athena-website/blog/first-blog-post', '4c3'),
+    path: '/athena-website/__docusaurus/debug/content',
+    component: ComponentCreator('/athena-website/__docusaurus/debug/content', '86d'),
     exact: true
   },
   {
-    path: '/athena-website/blog/long-blog-post',
-    component: ComponentCreator('/athena-website/blog/long-blog-post', '9d5'),
+    path: '/athena-website/__docusaurus/debug/globalData',
+    component: ComponentCreator('/athena-website/__docusaurus/debug/globalData', '5d2'),
     exact: true
   },
   {
-    path: '/athena-website/blog/mdx-blog-post',
-    component: ComponentCreator('/athena-website/blog/mdx-blog-post', 'ab5'),
+    path: '/athena-website/__docusaurus/debug/metadata',
+    component: ComponentCreator('/athena-website/__docusaurus/debug/metadata', 'b70'),
     exact: true
   },
   {
-    path: '/athena-website/blog/tags',
-    component: ComponentCreator('/athena-website/blog/tags', '4b9'),
+    path: '/athena-website/__docusaurus/debug/registry',
+    component: ComponentCreator('/athena-website/__docusaurus/debug/registry', '286'),
     exact: true
   },
   {
-    path: '/athena-website/blog/tags/docusaurus',
-    component: ComponentCreator('/athena-website/blog/tags/docusaurus', '536'),
-    exact: true
-  },
-  {
-    path: '/athena-website/blog/tags/facebook',
-    component: ComponentCreator('/athena-website/blog/tags/facebook', 'f18'),
-    exact: true
-  },
-  {
-    path: '/athena-website/blog/tags/hello',
-    component: ComponentCreator('/athena-website/blog/tags/hello', '540'),
-    exact: true
-  },
-  {
-    path: '/athena-website/blog/tags/hola',
-    component: ComponentCreator('/athena-website/blog/tags/hola', '666'),
-    exact: true
-  },
-  {
-    path: '/athena-website/blog/welcome',
-    component: ComponentCreator('/athena-website/blog/welcome', '0bf'),
+    path: '/athena-website/__docusaurus/debug/routes',
+    component: ComponentCreator('/athena-website/__docusaurus/debug/routes', 'c33'),
     exact: true
   },
   {
