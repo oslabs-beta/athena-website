@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Rendering Your Component
 
-After defining the state, props, function definitions, and JSX, users can render their component in the Component window by following these steps:
+After defining the Body & JSX of their component, users can render their component in the Component window by following these steps:
 
 - **Update View**: To view the most recent changes made, click the 'Update View' button. This will trigger a re-render of the component.
 

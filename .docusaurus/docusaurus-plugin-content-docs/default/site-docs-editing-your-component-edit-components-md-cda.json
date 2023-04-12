@@ -1,0 +1,27 @@
+{
+  "unversionedId": "editing-your-component/Edit Components",
+  "id": "editing-your-component/Edit Components",
+  "title": "Editing Components",
+  "description": "In AthenaJS, there are two code editors:",
+  "source": "@site/docs/editing-your-component/Edit Components.md",
+  "sourceDirName": "editing-your-component",
+  "slug": "/editing-your-component/Edit Components",
+  "permalink": "/athena-website/docs/editing-your-component/Edit Components",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/Edit Components.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Uploading Components",
+    "permalink": "/athena-website/docs/editing-your-component/Upload Components"
+  },
+  "next": {
+    "title": "Mock HTTP Requests",
+    "permalink": "/athena-website/docs/editing-your-component/Mock HTTP Requests"
+  }
+}

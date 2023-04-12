@@ -11,28 +11,38 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "editing-your-component/defining-actions",
-              "path": "/athena-website/docs/editing-your-component/defining-actions",
+              "id": "editing-your-component/Edit Components",
+              "path": "/athena-website/docs/editing-your-component/Edit Components",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "editing-your-component/mocking-props",
-              "path": "/athena-website/docs/editing-your-component/mocking-props",
+              "id": "editing-your-component/Mock HTTP Requests",
+              "path": "/athena-website/docs/editing-your-component/Mock HTTP Requests",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "editing-your-component/mocking-state",
-              "path": "/athena-website/docs/editing-your-component/mocking-state",
+              "id": "editing-your-component/Rendering Components",
+              "path": "/athena-website/docs/editing-your-component/Rendering Components",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "editing-your-component/rendering-component",
-              "path": "/athena-website/docs/editing-your-component/rendering-component",
+              "id": "editing-your-component/Styling Components",
+              "path": "/athena-website/docs/editing-your-component/Styling Components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "editing-your-component/Upload Components",
+              "path": "/athena-website/docs/editing-your-component/Upload Components",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
               "path": "/athena-website/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Quickstart",
+              "path": "/athena-website/docs/Quickstart",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -66,13 +76,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/editing-your-component",
-              "path": "/athena-website/docs/category/editing-your-component",
+              "id": "/category/ui-mode",
+              "path": "/athena-website/docs/category/ui-mode",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/ui-mode",
-              "path": "/athena-website/docs/category/ui-mode",
+              "id": "/category/building--editing-components",
+              "path": "/athena-website/docs/category/building--editing-components",
               "sidebar": "tutorialSidebar"
             },
             {

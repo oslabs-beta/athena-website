@@ -11,42 +11,15 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Getting Started",
+        "label": "Introduction",
         "href": "/athena-website/docs/intro",
         "docId": "intro"
       },
       {
-        "type": "category",
-        "label": "Editing Your Component",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Mocking Props",
-            "href": "/athena-website/docs/editing-your-component/mocking-props",
-            "docId": "editing-your-component/mocking-props"
-          },
-          {
-            "type": "link",
-            "label": "Mocking State",
-            "href": "/athena-website/docs/editing-your-component/mocking-state",
-            "docId": "editing-your-component/mocking-state"
-          },
-          {
-            "type": "link",
-            "label": "Mocking Functions",
-            "href": "/athena-website/docs/editing-your-component/defining-actions",
-            "docId": "editing-your-component/defining-actions"
-          },
-          {
-            "type": "link",
-            "label": "Rendering Your Component",
-            "href": "/athena-website/docs/editing-your-component/rendering-component",
-            "docId": "editing-your-component/rendering-component"
-          }
-        ],
-        "href": "/athena-website/docs/category/editing-your-component"
+        "type": "link",
+        "label": "Quickstart",
+        "href": "/athena-website/docs/Quickstart",
+        "docId": "Quickstart"
       },
       {
         "type": "category",
@@ -62,6 +35,45 @@
           }
         ],
         "href": "/athena-website/docs/category/ui-mode"
+      },
+      {
+        "type": "category",
+        "label": "Building & Editing Components",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Uploading Components",
+            "href": "/athena-website/docs/editing-your-component/Upload Components",
+            "docId": "editing-your-component/Upload Components"
+          },
+          {
+            "type": "link",
+            "label": "Editing Components",
+            "href": "/athena-website/docs/editing-your-component/Edit Components",
+            "docId": "editing-your-component/Edit Components"
+          },
+          {
+            "type": "link",
+            "label": "Mock HTTP Requests",
+            "href": "/athena-website/docs/editing-your-component/Mock HTTP Requests",
+            "docId": "editing-your-component/Mock HTTP Requests"
+          },
+          {
+            "type": "link",
+            "label": "Styling Components",
+            "href": "/athena-website/docs/editing-your-component/Styling Components",
+            "docId": "editing-your-component/Styling Components"
+          },
+          {
+            "type": "link",
+            "label": "Rendering Your Component",
+            "href": "/athena-website/docs/editing-your-component/Rendering Components",
+            "docId": "editing-your-component/Rendering Components"
+          }
+        ],
+        "href": "/athena-website/docs/category/building--editing-components"
       },
       {
         "type": "category",
@@ -105,34 +117,46 @@
     ]
   },
   "docs": {
-    "editing-your-component/defining-actions": {
-      "id": "editing-your-component/defining-actions",
-      "title": "Mocking Functions",
-      "description": "In AthenaJS, the function terminal window is a powerful tool that allows users to import and define functions from component files to test and render components. Here's a step-by-step guide on how to use the function terminal window:",
+    "editing-your-component/Edit Components": {
+      "id": "editing-your-component/Edit Components",
+      "title": "Editing Components",
+      "description": "In AthenaJS, there are two code editors:",
       "sidebar": "tutorialSidebar"
     },
-    "editing-your-component/mocking-props": {
-      "id": "editing-your-component/mocking-props",
-      "title": "Mocking Props",
-      "description": "In AthenaJS, mocking props is an essential aspect of component development and testing. It enables developers to simulate the data that their components receive from parent components or external sources, ensuring that they function correctly in various scenarios. Here is a step-by-step guide on how to write and use dummy props in AthenaJS:",
+    "editing-your-component/Mock HTTP Requests": {
+      "id": "editing-your-component/Mock HTTP Requests",
+      "title": "Mock HTTP Requests",
+      "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their documentation  here .",
       "sidebar": "tutorialSidebar"
     },
-    "editing-your-component/mocking-state": {
-      "id": "editing-your-component/mocking-state",
-      "title": "Mocking State",
-      "description": "AthenaJS offers a functional component syntax that allows users to simulate state, enabling developers to test their components' behavior in various scenarios. If you're looking to write and implement mock state using AthenaJS, here's a step-by-step guide:",
-      "sidebar": "tutorialSidebar"
-    },
-    "editing-your-component/rendering-component": {
-      "id": "editing-your-component/rendering-component",
+    "editing-your-component/Rendering Components": {
+      "id": "editing-your-component/Rendering Components",
       "title": "Rendering Your Component",
-      "description": "After defining the state, props, function definitions, and JSX, users can render their component in the Component window by following these steps:",
+      "description": "After defining the Body & JSX of their component, users can render their component in the Component window by following these steps:",
+      "sidebar": "tutorialSidebar"
+    },
+    "editing-your-component/Styling Components": {
+      "id": "editing-your-component/Styling Components",
+      "title": "Styling Components",
+      "description": "AthenaJS includes styled-component integration.  Read more about styled-components here.",
+      "sidebar": "tutorialSidebar"
+    },
+    "editing-your-component/Upload Components": {
+      "id": "editing-your-component/Upload Components",
+      "title": "Uploading Components",
+      "description": "File Explorer",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
       "id": "intro",
-      "title": "Getting Started",
+      "title": "Introduction",
       "description": "Introduction to AthenaJS:",
+      "sidebar": "tutorialSidebar"
+    },
+    "Quickstart": {
+      "id": "Quickstart",
+      "title": "Quickstart",
+      "description": "Navigate to the 'Edit Component' tab on the Navbar to view the code editors.",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/create-a-blog-post": {

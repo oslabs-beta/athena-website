@@ -1,0 +1,27 @@
+{
+  "unversionedId": "editing-your-component/Mock HTTP Requests",
+  "id": "editing-your-component/Mock HTTP Requests",
+  "title": "Mock HTTP Requests",
+  "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their documentation  here .",
+  "source": "@site/docs/editing-your-component/Mock HTTP Requests.md",
+  "sourceDirName": "editing-your-component",
+  "slug": "/editing-your-component/Mock HTTP Requests",
+  "permalink": "/athena-website/docs/editing-your-component/Mock HTTP Requests",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/editing-your-component/Mock HTTP Requests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Editing Components",
+    "permalink": "/athena-website/docs/editing-your-component/Edit Components"
+  },
+  "next": {
+    "title": "Styling Components",
+    "permalink": "/athena-website/docs/editing-your-component/Styling Components"
+  }
+}
