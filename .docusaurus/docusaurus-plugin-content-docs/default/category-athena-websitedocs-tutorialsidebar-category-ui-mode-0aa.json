@@ -4,8 +4,8 @@
   "permalink": "/athena-website/docs/category/ui-mode",
   "navigation": {
     "previous": {
-      "title": "Quickstart",
-      "permalink": "/athena-website/docs/Quickstart"
+      "title": "Rendering Your Component",
+      "permalink": "/athena-website/docs/editing-your-component/Rendering Components"
     },
     "next": {
       "title": "manage-docs-versions",

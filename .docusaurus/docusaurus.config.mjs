@@ -27,15 +27,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/dkc213/Desktop/CS Stuff/athena-website/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/ryanmotamen/Desktop/athena-website/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/dkc213/Desktop/CS Stuff/athena-website/src/css/custom.css"
+          "customCss": "/Users/ryanmotamen/Desktop/athena-website/src/css/custom.css"
         }
       }
     ]
@@ -54,11 +52,6 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
         },
         {
           "href": "https://github.com/oslabs-beta/Athena",

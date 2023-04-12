@@ -46,38 +46,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/athena-website/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/athena-website/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/athena-website/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/athena-website/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/athena-website/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "UI-mode/manage-docs-versions",
               "path": "/athena-website/docs/UI-mode/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/ui-mode",
-              "path": "/athena-website/docs/category/ui-mode",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -86,8 +56,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/athena-website/docs/category/tutorial---basics",
+              "id": "/category/ui-mode",
+              "path": "/athena-website/docs/category/ui-mode",
               "sidebar": "tutorialSidebar"
             }
           ],
