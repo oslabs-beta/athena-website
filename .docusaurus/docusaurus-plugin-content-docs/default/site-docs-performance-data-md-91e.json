@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Performance Data",
+  "id": "Performance Data",
+  "title": "Performance Data",
+  "description": "When a user renders a component on the Component Workshop or Saved Components pages, the render data for that component is displayed on the top-right corner of the screen.",
+  "source": "@site/docs/Performance Data.md",
+  "sourceDirName": ".",
+  "slug": "/Performance Data",
+  "permalink": "/athena-website/docs/Performance Data",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Saving Components",
+    "permalink": "/athena-website/docs/Saving Components"
+  },
+  "next": {
+    "title": "UI Whiteboard",
+    "permalink": "/athena-website/docs/UI Whiteboard"
+  }
+}

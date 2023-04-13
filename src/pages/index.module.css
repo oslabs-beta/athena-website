@@ -2,6 +2,11 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+main {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
 
 .heroBanner {
   padding: 4rem 0;
@@ -9,26 +14,82 @@
   position: relative;
   height: calc(100vh - 3.9rem);
   overflow: hidden;
-  /* background-image: url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg);
-  /* background-image: url(../../images/athena.jpg); */
+  background-color:black;
+  background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(0, 0, 0, 0.5) 20%,rgb(0, 0, 0) 100%), url(https://carlos.emory.edu/sites/default/files/2020-05/Volute%20krater%20with%20Apollo%20and%20Athena.jpg);
+  background-position:top center;
+  background-size:100% auto;
   background-size: cover;
-  background-position: center;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+  scroll-snap-align:start;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction:column;
+  flex-direction: row;
+}
+
+.downloadButton {
+  padding: 15px 30px;
+  margin: 12px;
+  border-radius: 10px;
+  background-color: #ebedf0;
+  color: black;
+}
+
+.downloadButton:hover {
+  background-color: #a8a7ab;
+  color: white;
+  text-decoration: none;
 }
 
 .margin{
   margin: 10px;
+}
+
+footer {
+  width: 100vw;
+  scroll-snap-align:start;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teamList {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  width: 95%;
+  margin:auto;
+}
+
+.teamMember{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+h4 {
+  margin: 10px auto 10px;
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    scroll-snap-align: none;
+  }
+  
+  footer {
+    scroll-snap-align: none;
+  }
+
+  .teamList {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
 }

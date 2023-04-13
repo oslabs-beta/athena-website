@@ -23,21 +23,6 @@
       },
       {
         "type": "category",
-        "label": "UI Mode",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "manage-docs-versions",
-            "href": "/athena-website/docs/UI-mode/manage-docs-versions",
-            "docId": "UI-mode/manage-docs-versions"
-          }
-        ],
-        "href": "/athena-website/docs/category/ui-mode"
-      },
-      {
-        "type": "category",
         "label": "Building & Editing Components",
         "collapsible": true,
         "collapsed": true,
@@ -76,43 +61,22 @@
         "href": "/athena-website/docs/category/building--editing-components"
       },
       {
-        "type": "category",
-        "label": "Tutorial - Basics",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Importing Your File",
-            "href": "/athena-website/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Editing Your Component",
-            "href": "/athena-website/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Mocking Props",
-            "href": "/athena-website/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/athena-website/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Mocking State",
-            "href": "/athena-website/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
-          }
-        ],
-        "href": "/athena-website/docs/category/tutorial---basics"
+        "type": "link",
+        "label": "Saving Components",
+        "href": "/athena-website/docs/Saving Components",
+        "docId": "Saving Components"
+      },
+      {
+        "type": "link",
+        "label": "Performance Data",
+        "href": "/athena-website/docs/Performance Data",
+        "docId": "Performance Data"
+      },
+      {
+        "type": "link",
+        "label": "UI Whiteboard",
+        "href": "/athena-website/docs/UI Whiteboard",
+        "docId": "UI Whiteboard"
       }
     ]
   },
@@ -126,7 +90,7 @@
     "editing-your-component/Mock HTTP Requests": {
       "id": "editing-your-component/Mock HTTP Requests",
       "title": "Mock HTTP Requests",
-      "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their documentation  here .",
+      "description": "AthenaJS includes fetch-mock integration, for a detailed look into how the fetch-mock library works, check out their  documentation.",
       "sidebar": "tutorialSidebar"
     },
     "editing-your-component/Rendering Components": {
@@ -138,7 +102,7 @@
     "editing-your-component/Styling Components": {
       "id": "editing-your-component/Styling Components",
       "title": "Styling Components",
-      "description": "AthenaJS includes styled-component integration.  Read more about styled-components here.",
+      "description": "AthenaJS includes styled-component integration.  Read more about styled-components in their documentation.",
       "sidebar": "tutorialSidebar"
     },
     "editing-your-component/Upload Components": {
@@ -153,46 +117,28 @@
       "description": "Introduction to AthenaJS:",
       "sidebar": "tutorialSidebar"
     },
+    "Performance Data": {
+      "id": "Performance Data",
+      "title": "Performance Data",
+      "description": "When a user renders a component on the Component Workshop or Saved Components pages, the render data for that component is displayed on the top-right corner of the screen.",
+      "sidebar": "tutorialSidebar"
+    },
     "Quickstart": {
       "id": "Quickstart",
       "title": "Quickstart",
       "description": "Navigate to the 'Edit Component' tab on the Navbar to view the code editors.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Mocking Props",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+    "Saving Components": {
+      "id": "Saving Components",
+      "title": "Saving Components",
+      "description": "Once users have created and rendered their component, they can add it to their component library by clicking on the Save Component button.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Editing Your Component",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Importing Your File",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Mocking State",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "UI-mode/manage-docs-versions": {
-      "id": "UI-mode/manage-docs-versions",
-      "title": "manage-docs-versions",
-      "description": "",
+    "UI Whiteboard": {
+      "id": "UI Whiteboard",
+      "title": "UI Whiteboard",
+      "description": "What is the UI Whiteboard?",
       "sidebar": "tutorialSidebar"
     }
   }

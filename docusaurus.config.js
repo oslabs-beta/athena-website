@@ -7,8 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "AthenaJS",
-  tagline: "Building Components Has Never Been This Easy",
-  favicon: "img/favicon.ico",
+  tagline: "Building React components has never been this easy",
+  favicon: "img/athena_icon_whitebg.png",
 
   // Set the production url of your site here
   url: "https://oslabs-beta.github.io",
@@ -42,15 +42,11 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -75,56 +71,27 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/oslabs-beta/Athena",
-            label: "GitHub",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
+          },
+          {
+            href: "https://twitter.com/AthenaJSDev",
+            position: "right",
+            className: "header-twitter-link",
+            "aria-label": "Twitter",
+          },
+          {
+            href: "https://discord.gg/6xkMNXtBYp",
+            position: "right",
+            className: "header-discord-link",
+            "aria-label": "Discord",
           },
         ],
-      },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/ghDc4zPq",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/AthenaJSDev",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/oslabs-beta/Athena",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Wheisker Co. Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
