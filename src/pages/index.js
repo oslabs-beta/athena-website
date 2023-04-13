@@ -22,21 +22,21 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <a
             className={styles.downloadButton}
-            href="https://github.com/oslabs-beta/AthenaJS/releases/download/v1.0.0/athena_1.0.0_Mac.dmg"
+            href="https://github.com/oslabs-beta/AthenaJS/releases/download/v1.1.0/athena_1.1.0_Mac.dmg"
             download=""
           >
             <FaApple />
           </a>
           <a
             className={styles.downloadButton}
-            href="https://github.com/oslabs-beta/AthenaJS/releases/download/v1.0.0/athena_1.0.0_Win.exe"
+            href="https://github.com/oslabs-beta/AthenaJS/releases/download/v1.1.0/athena_1.1.0_Win.exe"
             download=""
           >
             <AiFillWindows />
           </a>
           <a
             className={styles.downloadButton}
-            href="https://github.com/oslabs-beta/AthenaJS/releases/download/v1.0.0/athena_1.0.0_Linux.AppImage"
+            href="https://github.com/oslabs-beta/AthenaJS/releases/download/v1.1.0/athena_1.1.0_Linux.AppImage"
             download=""
           >
             <FcLinux />
