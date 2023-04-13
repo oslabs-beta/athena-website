@@ -22,21 +22,6 @@ main {
   scroll-snap-align:start;
 }
 
-@media (max-width: 768px) {
-  .heroBanner {
-    scroll-snap-align: none;
-  }
-  footer {
-    scroll-snap-align: none;
-  }
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
@@ -63,20 +48,48 @@ main {
 }
 
 footer {
-  height: 50vh;
   width: 100vw;
   scroll-snap-align:start;
-  /* display:flex; */
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .teamList {
   display:flex;
   flex-direction:row;
-  width: 100%;
+  justify-content: space-evenly;
+  width: 95%;
+  margin:auto;
 }
 
 .teamMember{
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+h4 {
+  margin: 10px auto 10px;
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    scroll-snap-align: none;
+  }
+  
+  footer {
+    scroll-snap-align: none;
+  }
+
+  .teamList {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
 }

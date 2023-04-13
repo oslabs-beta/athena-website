@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "AthenaJS",
-  tagline: "Building Components Has Never Been This Easy",
+  tagline: "Building React components has never been this easy",
   favicon: "img/athena_icon_whitebg.png",
 
   // Set the production url of your site here

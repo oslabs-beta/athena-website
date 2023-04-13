@@ -5,7 +5,7 @@
  */
 export default {
   "title": "AthenaJS",
-  "tagline": "Building Components Has Never Been This Easy",
+  "tagline": "Building React components has never been this easy",
   "favicon": "img/athena_icon_whitebg.png",
   "url": "https://oslabs-beta.github.io",
   "baseUrl": "/athena-website/",

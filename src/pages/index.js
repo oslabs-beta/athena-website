@@ -49,20 +49,48 @@ function HomepageHeader() {
 
 const HomepageFooter = () => {
   const { siteConfig } = useDocusaurusContext();
+
+  const teamMemberInfo = [
+    {
+      name: 'Daniel Chang',
+      linkedin: 'https://www.linkedin.com/in/dkc213/',
+      github: 'https://github.com/Chang254'
+    },
+    {
+      name: 'Christopher Long',
+      linkedin: 'https://www.linkedin.com/in/cvalong/',
+      github: 'https://github.com/cvalong',
+    },
+    {
+      name: 'Ryan Motamen',
+      linkedin: 'https://www.linkedin.com/in/ryan-motamen/',
+      github: 'https://github.com/ryanmotamen'
+    },
+    {
+      name: 'Derrick Oh',
+      linkedin: 'https://www.linkedin.com/in/derrick-oh-37a84a182/',
+      github: 'https://github.com/Igniphis'
+    },
+    {
+      name: 'Matthew Fukudome',
+      linkedin: 'https://www.linkedin.com/in/matthewfukudome/',
+      github: 'https://github.com/mattfookoo'
+    },
+  ];
+
+  const teamMemberSocials = teamMemberInfo.map((info) => (
+    <div className={styles.teamMember}>
+      <span>{info.name}</span>
+      <a href={info.github}> <AiFillGithub /></a>
+      <a href={info.linkedin}> <AiFillLinkedin /></a>
+    </div>
+  ));
+
   return (
-    <footer className='fullViewHeightFooter'>
-      AthenaJS Core Team
-      <div className='teamList'>
-        <div className='teamMember'><div>Daniel Chang:</div><div><a href = '#'><AiFillGithub /></a><a href = '#'><AiFillLinkedin /></a></div></div>
-        <div className='teamMember'><span>Christopher Long:</span><a href = '#'> <AiFillGithub /></a> <span> | </span> <a href = '#'> <AiFillLinkedin /></a></div>
-        <div className='teamMember'><span>Derrick Oh:</span><a href = 'https://github.com/Igniphis'> <AiFillGithub /></a> <span> | </span> <a href = 'https://www.linkedin.com/in/derrick-oh-37a84a182/'> <AiFillLinkedin /></a></div>
-        <div className='teamMember'><span>Matthew Fukudome:</span><a href = 'https://github.com/cvalong'><AiFillGithub /></a> <span> | </span> <a href = 'https://www.linkedin.com/in/cvalong/'> <AiFillLinkedin /></a></div>
-        <div className='teamMember'>
-          <span>Ryan Motamen:</span>
-          <a href = 'https://github.com/ryanmotamen'> <AiFillGithub /></a> 
-          <span> | </span> 
-          <a href ='https://www.linkedin.com/in/ryan-motamen/' > <AiFillLinkedin /></a>
-        </div>
+    <footer className={styles.fullViewHeightFooter}>
+      <h4>AthenaJS Core Team</h4>
+      <div className={styles.teamList}>
+        {teamMemberSocials}
       </div>
     </footer>
   );

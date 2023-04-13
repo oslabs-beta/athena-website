@@ -1,110 +1,67 @@
 {
-  "/athena-website/__docusaurus/debug-422": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---athena-website-docusaurus-debuga-5-b-8d5"
-    }
-  },
-  "/athena-website/__docusaurus/debug/config-7ad": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---athena-website-docusaurus-debuga-5-b-8d5"
-    }
-  },
-  "/athena-website/__docusaurus/debug/content-86d": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---athena-website-docusaurus-debuga-5-b-8d5"
-    },
-    "allContent": "allContent---athena-website-docusaurus-debug-content-246-ae7"
-  },
-  "/athena-website/__docusaurus/debug/globalData-5d2": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---athena-website-docusaurus-debuga-5-b-8d5"
-    }
-  },
-  "/athena-website/__docusaurus/debug/metadata-b70": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---athena-website-docusaurus-debuga-5-b-8d5"
-    }
-  },
-  "/athena-website/__docusaurus/debug/registry-286": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---athena-website-docusaurus-debuga-5-b-8d5"
-    }
-  },
-  "/athena-website/__docusaurus/debug/routes-c33": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---athena-website-docusaurus-debuga-5-b-8d5"
-    }
-  },
   "/athena-website/markdown-page-ced": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---athena-website-markdown-pagef-0-b-8d5"
+      "plugin": "f0bab158"
     },
-    "content": "content---athena-website-markdown-page-393-964"
+    "content": "393be207"
   },
   "/athena-website/docs-4ae": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---athena-website-docs-4-c-4-d3e"
+      "plugin": "4c46d44b"
     },
-    "versionMetadata": "versionMetadata---athena-website-docs-935-384"
+    "versionMetadata": "935f2afb"
   },
   "/athena-website/docs/category/building--editing-components-6eb": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---athena-website-docs-category-building-editing-components-4-c-0-b7e"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "4c0dc450"
   },
   "/athena-website/docs/editing-your-component/Edit Components-44c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-editing-your-component-edit-componentscda-aa0"
+    "__comp": "17896441",
+    "content": "cda27be6"
   },
   "/athena-website/docs/editing-your-component/Mock HTTP Requests-6af": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-editing-your-component-mock-http-requests-10-d-a17"
+    "__comp": "17896441",
+    "content": "10ddb725"
   },
   "/athena-website/docs/editing-your-component/Rendering Components-853": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-editing-your-component-rendering-componentsc-59-344"
+    "__comp": "17896441",
+    "content": "c5927c44"
   },
   "/athena-website/docs/editing-your-component/Styling Components-f16": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-editing-your-component-styling-componentsc-44-506"
+    "__comp": "17896441",
+    "content": "c448d639"
   },
   "/athena-website/docs/editing-your-component/Upload Components-f54": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-editing-your-component-upload-componentsaaa-03b"
+    "__comp": "17896441",
+    "content": "aaa309bb"
   },
   "/athena-website/docs/intro-ffb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-intro-0-e-3-099"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/athena-website/docs/Performance Data-7cc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-performance-data-91-e-62c"
+    "__comp": "17896441",
+    "content": "91e82363"
   },
   "/athena-website/docs/Quickstart-236": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-quickstart-351-9c9"
+    "__comp": "17896441",
+    "content": "351e6096"
   },
   "/athena-website/docs/Saving Components-b3d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-saving-components-54-f-13d"
+    "__comp": "17896441",
+    "content": "54f62466"
   },
   "/athena-website/docs/UI Whiteboard-8d4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---athena-website-docs-ui-whiteboarde-59-682"
+    "__comp": "17896441",
+    "content": "e59d8c0a"
   },
   "/athena-website/-1dd": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---athena-website-markdown-pagef-0-b-8d5"
+      "plugin": "f0bab158"
     },
-    "config": "config---athena-website-5-e-9-063"
+    "config": "5e9f5e1a"
   }
 }
