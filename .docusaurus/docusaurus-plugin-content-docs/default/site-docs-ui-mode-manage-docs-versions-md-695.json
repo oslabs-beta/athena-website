@@ -6,9 +6,8 @@
   "source": "@site/docs/UI-mode/manage-docs-versions.md",
   "sourceDirName": "UI-mode",
   "slug": "/UI-mode/manage-docs-versions",
-  "permalink": "/docs/UI-mode/manage-docs-versions",
+  "permalink": "/athena-website/docs/UI-mode/manage-docs-versions",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/UI-mode/manage-docs-versions.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,11 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "UI Mode",
-    "permalink": "/docs/category/ui-mode"
-  },
-  "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "title": "UI Whiteboard",
+    "permalink": "/athena-website/docs/category/ui-whiteboard"
   }
 }

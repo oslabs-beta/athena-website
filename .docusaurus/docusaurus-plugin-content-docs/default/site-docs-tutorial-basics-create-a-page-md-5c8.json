@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-basics/create-a-page.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-page",
-  "permalink": "/docs/tutorial-basics/create-a-page",
+  "permalink": "/athena-website/docs/tutorial-basics/create-a-page",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "permalink": "/athena-website/docs/category/tutorial---basics"
   },
   "next": {
     "title": "Editing Your Component",
-    "permalink": "/docs/tutorial-basics/create-a-document"
+    "permalink": "/athena-website/docs/tutorial-basics/create-a-document"
   }
 }

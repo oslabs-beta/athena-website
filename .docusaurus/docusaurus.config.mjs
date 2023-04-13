@@ -5,12 +5,13 @@
  */
 export default {
   "title": "AthenaJS",
-  "tagline": "Building Components Has Never Been This Easy",
-  "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
-  "organizationName": "OSLABS",
-  "projectName": "Athena",
+  "tagline": "Building React components has never been this easy",
+  "favicon": "img/athena_icon_whitebg.png",
+  "url": "https://oslabs-beta.github.io",
+  "baseUrl": "/athena-website/",
+  "organizationName": "oslabs-beta",
+  "projectName": "athena-website",
+  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -26,15 +27,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "E:\\coding-stuff\\codesmith-OSP\\Athena-website\\athena-website\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/ryanmotamen/Desktop/athena-website/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
-          "customCss": "E:\\coding-stuff\\codesmith-OSP\\Athena-website\\athena-website\\src\\css\\custom.css"
+          "customCss": "/Users/ryanmotamen/Desktop/athena-website/src/css/custom.css"
         }
       }
     ]
@@ -52,65 +51,28 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
+          "label": "Docs"
         },
         {
           "href": "https://github.com/oslabs-beta/Athena",
-          "label": "GitHub",
-          "position": "right"
+          "position": "right",
+          "className": "header-github-link",
+          "aria-label": "GitHub repository"
+        },
+        {
+          "href": "https://twitter.com/AthenaJSDev",
+          "position": "right",
+          "className": "header-twitter-link",
+          "aria-label": "Twitter"
+        },
+        {
+          "href": "https://discord.gg/6xkMNXtBYp",
+          "position": "right",
+          "className": "header-discord-link",
+          "aria-label": "Discord"
         }
       ],
       "hideOnScroll": false
-    },
-    "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/oslabs-beta/Athena"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2023 Wheisker Co. Inc."
     },
     "prism": {
       "theme": {
