@@ -10,7 +10,7 @@ AthenaJS is a standalone Electron application that streamlines the development p
 
 ### Key Features of AthenaJS Include:
 
-- **Intuitive interface** for editing components or building components from scratch. This includes a built-in linter for JavaScript and JSX.
+- **Intuitive interface** for editing components or building components from scratch.
 
 - **Live component rendering**, making it easy to visualize and test components on the fly.
 
@@ -36,3 +36,9 @@ Once you have met these prerequisites, you can install AthenaJS and begin develo
 ## Installing Athena JS
 
 Download AthenaJS through the [homepage](https://oslabs-beta.github.io/athena-website/).  If you want to contribute, check out our [Github](https://github.com/oslabs-beta/Athena).
+
+:::caution
+
+Before Mac users can run the application downloaded from the website, they will need to give approval for its use in their "Security and Privacy" settings.
+
+:::
